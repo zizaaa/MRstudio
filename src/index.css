@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* hero */
+.hero{
+    background: rgb(78,7,99);
+    background: linear-gradient(90deg, rgba(78,7,99,1) 37%, rgba(155,0,181,1) 100%, rgba(255,255,255,1) 100%);
+}
+.custom-shape-divider-top-1683209196 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1683209196 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 78px;
+}
+
+.custom-shape-divider-top-1683209196 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Resort Surprise */
+.custom-shape-divider-bottom-1683209291 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1683209291 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 42px;
+}
+
+.custom-shape-divider-bottom-1683209291 .shape-fill {
+    fill: #FFFFFF;
+}
